@@ -4,12 +4,17 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Bio from "./pages/Bio";
 import Contact from "./pages/Contact";
+import Portfolio from "./pages/Portfolio";
 // import friends from './friends.json';
 
 class App extends React.Component {
   state = {
-    currentTab: ""
+    currentPage: "Bio"
   }
+
+  handlePageChange = page => {
+    this.setState({ currentPage: page})
+  };
   // removeFriend = id => {
   //   // write code to filter through friends array and return any
   //   // object that does not have the id of the object that you clicked
@@ -19,10 +24,14 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Navbar />
+        <Navbar 
+        currentPage={this.state.currentPage}
+        handlePageChange={this.handlePageChange}
+        />
         <Wrapper>
-          <Bio />
-          <Contact />
+          {(this.state.currentPage === "bio" && <Bio /> ) || 
+        (this.state.currentPage === "portfolio" && <Portfolio friendCount={this.state.friendCount} result={this.state.resultDiscover}/>) || 
+        (this.state.currentPage === "contact" && <Contact /> )}
         </Wrapper>
         <Footer />
       </div>
