@@ -33,7 +33,7 @@ class App extends React.Component {
         (this.state.currentPage === "portfolio" && <Portfolio/>) || 
         (this.state.currentPage === "contact" && <Contact /> )}
         </Wrapper>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     );
   }
