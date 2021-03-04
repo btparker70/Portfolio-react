@@ -30,10 +30,10 @@ class App extends React.Component {
         />
         <Wrapper>
           {(this.state.currentPage === "bio" && <Bio /> ) || 
-        (this.state.currentPage === "portfolio" && <Portfolio friendCount={this.state.friendCount} result={this.state.resultDiscover}/>) || 
+        (this.state.currentPage === "portfolio" && <Portfolio/>) || 
         (this.state.currentPage === "contact" && <Contact /> )}
         </Wrapper>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     );
   }

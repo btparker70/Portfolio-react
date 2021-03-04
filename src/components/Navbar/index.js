@@ -14,7 +14,7 @@ return (
         <div class="navbar-nav">
             <a class="nav-link" href="#bio" onClick={() => props.handlePageChange("bio")}>About Me</a>
             <a class="nav-link" href="#portfolio" onClick={() => props.handlePageChange("portfolio")}>Portfolio</a>
-            <a class="nav-link active" href="#contact" onClick={() => props.handlePageChange("contact")}>Contact <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#contact" onClick={() => props.handlePageChange("contact")}>Contact <span class="sr-only">(current)</span></a>
         </div>
     </div>
 </nav>

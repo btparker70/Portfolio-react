@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "SearchAway!",
-    "image": "./assets/images/SearchAway!.png",
+    "image": "https://github.com/btparker70/Portfolio-react/blob/main/src/assets/images/SearchAway!.png?raw=true",
     "alt": "SearchAway!",
     "deploy": "https://karlypaige.github.io/SearchAway/",
     "github": "https://github.com/karlypaige/SearchAway"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "name": "Wedding Planner",
-    "image": "./assets/images/project2.png",
+    "image": "https://github.com/btparker70/Portfolio-react/blob/main/src/assets/images/project2.png?raw=true",
     "alt": "Planner-for-planners",
     "deploy": "https://salty-earth-89090.herokuapp.com/",
     "github": "https://github.com/916Serg619/Project2"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Weather Dashboard",
-    "image": "./assets/images/weathernew.png",
+    "image": "https://github.com/btparker70/Portfolio-react/blob/main/src/assets/images/weathernew.png?raw=true",
     "alt": "Weather Dashboard",
     "deploy": "https://btparker70.github.io/Weather-Dashboard/",
     "github": "https://github.com/btparker70/Weather-Dashboard"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Eat-da-burger",
-    "image": "./assets/images/burger.png",
+    "image": "https://github.com/btparker70/Portfolio-react/blob/main/src/assets/images/burger.png?raw=true",
     "alt": "Eat-da-burger",
     "deploy": "https://obscure-springs-12022.herokuapp.com/",
     "github": "https://github.com/btparker70/Eat-Da-Burger"
@@ -34,7 +34,7 @@
   {
     "id": 4,
     "name": "Day Planner",
-    "image": "./assets/images/DayPlanner.png",
+    "image": "https://github.com/btparker70/Portfolio-react/blob/main/src/assets/images/DayPlanner.png?raw=true",
     "alt": "Day Planner",
     "deploy": "https://btparker70.github.io/Daily-Planner/",
     "github": "https://github.com/btparker70/Daily-Planner"
