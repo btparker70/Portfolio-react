@@ -3,6 +3,7 @@ import Wrapper from "./components/Wrapper";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Bio from "./pages/Bio";
+import Contact from "./pages/Contact";
 // import friends from './friends.json';
 
 class App extends React.Component {
@@ -21,6 +22,7 @@ class App extends React.Component {
         <Navbar />
         <Wrapper>
           <Bio />
+          <Contact />
         </Wrapper>
         <Footer />
       </div>
