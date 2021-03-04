@@ -1,17 +1,25 @@
 import React from "react";
-import ProjectCard from "../components/ProjectCard"
-import Projects from '../projects.json';
+import ProjectCard from "../components/ProjectCard";
+import Projects from "../projects.json";
+import { Container, Row, Col } from "../components/Grid";
 
 function Portfolio() {
   return (
-    <div style={{width: "100%"}}>
-      <h1>Portfolio</h1>
-      {Projects.map(project => (
-      <ProjectCard
-        {...project}/>
-      ))}
-    </div>
-  )
+    <Container>
+      <Row>
+        <Col>
+          <h1>Portfolio</h1>
+        </Col>
+      </Row>
+
+      {/* Render project cards here */}
+      <Row>
+        {Projects.map((project) => (
+          <ProjectCard {...project} />
+        ))}
+      </Row>
+    </Container>
+  );
 }
 
 export default Portfolio;

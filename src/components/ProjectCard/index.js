@@ -13,10 +13,10 @@ function ProjectCard(props) {
             <strong>{props.name}</strong> 
           </li>
           <li>
-            <strong>Github</strong> {props.github}
+            <strong>Github</strong> <a href={props.github}>Here</a>
           </li>
           <li>
-            <strong>Deployed</strong> {props.deploy}
+            <strong>Deployed</strong> <a href={props.deploy}>Here</a>
           </li>
         </ul>
       </div>
