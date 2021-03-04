@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "SearchAway!",
+    "image": "./assets/images/SearchAway!.png",
+    "alt": "SearchAway!",
+    "deploy": "https://karlypaige.github.io/SearchAway/",
+    "github": "https://github.com/karlypaige/SearchAway"
+  },
+  {
+    "id": 2,
+    "name": "Wedding Planner",
+    "image": "./assets/images/project2.png",
+    "alt": "Planner-for-planners",
+    "deploy": "https://salty-earth-89090.herokuapp.com/",
+    "github": "https://github.com/916Serg619/Project2"
+  },
+  {
+    "id": 3,
+    "name": "Weather Dashboard",
+    "image": "./assets/images/weathernew.png",
+    "alt": "Weather Dashboard",
+    "deploy": "https://btparker70.github.io/Weather-Dashboard/",
+    "github": "https://github.com/btparker70/Weather-Dashboard"
+  },
+  {
+    "id": 4,
+    "name": "Eat-da-burger",
+    "image": "./assets/images/burger.png",
+    "alt": "Eat-da-burger",
+    "deploy": "https://obscure-springs-12022.herokuapp.com/",
+    "github": "https://github.com/btparker70/Eat-Da-Burger"
+  },
+  {
+    "id": 4,
+    "name": "Day Planner",
+    "image": "./assets/images/DayPlanner.png",
+    "alt": "Day Planner",
+    "deploy": "https://btparker70.github.io/Daily-Planner/",
+    "github": "https://github.com/btparker70/Daily-Planner"
+  }
+]
