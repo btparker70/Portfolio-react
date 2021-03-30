@@ -17,7 +17,7 @@ A refactoring of my portfolio with React
 * [License](#License)
 
 # Link
-https://btparker70.github.io/Employee-Directory/
+https://btparker70.github.io/Portfolio-react/#bio
 
 # Usage
 Check out the link to see my bio, sample projects and a contact form!
